@@ -20,13 +20,6 @@ node login-once.cjs
 Complete the Cloudflare + ChatGPT login in the opened browser window. The
 profile will be saved in `gpt-prof/` and reused by `ask-gpt.cjs`.
 
-## Первый вход (создаёт постоянный профиль)
-```bash
-node login-once.cjs
-```
-Пройдите Cloudflare + ChatGPT логин в открывшемся окне браузера. Профиль
-сохранится в `gpt-prof/` и будет использоваться `ask-gpt.cjs`.
-
 ## Usage
 ```bash
 node ask-gpt.cjs "Your prompt"
